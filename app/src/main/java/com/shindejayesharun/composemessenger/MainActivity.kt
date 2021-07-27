@@ -2,11 +2,13 @@ package com.shindejayesharun.composemessenger
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.setContent
+import androidx.navigation.compose.rememberNavController
 import androidx.ui.tooling.preview.Preview
 import com.shindejayesharun.composemessenger.ui.theme.ComposeMessengerTheme
 
@@ -22,6 +24,12 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+@ExperimentalAnimationApi
+@Composable
+fun Root(){
+
 }
 
 @Composable
